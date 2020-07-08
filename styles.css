@@ -6,6 +6,12 @@ a {
     color: black;
 }
 
+span {
+    border: 0.5px solid grey;
+    padding: 5px;
+    display: inline-block;
+}
+
 .profil {
     border: 0.5px solid grey;
     text-align: center;
