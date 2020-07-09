@@ -22,6 +22,7 @@ header {
     justify-content: space-around;
     border-bottom: 1px solid grey;
     position: fixed;
+    height: 67.6;
     top: 0;
     left: 0;
     right: 0;
@@ -37,9 +38,11 @@ section {
     flex-direction: column;
     align-items: center;
     background-color: #edf2f4;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 50px 0px 50px 0px;
+    padding: 120px 0px 120px 0px;
+}
+
+section h2 {
+    margin-bottom: 30px;
 }
 
 .tags span {
@@ -57,8 +60,12 @@ section {
     justify-content: center;
 }
 
+.interests {
+    background-color: white;
+}
+
 .pic {
-    margin-top: 58.5px;
+    margin-top: 67.6px;
     display: grid;
     align-items: center;
 }
@@ -74,6 +81,19 @@ section {
     align-items: center;
     background-color: rgba(29, 53, 87, 0.5);
     color: rgba(241, 250, 238);
+}
+
+.titel h1 {
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #1d3557;
+    color: white;
+}
+
+.contact a {
+    color: white;
 }
 
 .contact span {
@@ -96,6 +116,10 @@ section {
     align-items: center;
 }
 
+.summary {
+    background-color: white;
+}
+
 .summary p {
     text-align: center;
     width: 90%;
@@ -105,7 +129,7 @@ section {
 .bio {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
 }
 
 .bio span {
@@ -114,7 +138,7 @@ section {
 
 footer {
     border-top: 1px solid grey;
-    margin: 0px 15px 0px 15px;
+    margin: 0px 0px 0px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
