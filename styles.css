@@ -68,6 +68,10 @@ section h2 {
     margin-top: 67.6px;
     display: grid;
     align-items: center;
+    background-image: url("/max.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 .pic img, div {
@@ -79,12 +83,15 @@ section h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(29, 53, 87, 0.5);
-    color: rgba(241, 250, 238);
+    text-align: center;
 }
 
 .titel h1 {
     margin-bottom: 10px;
+}
+
+.titel p {
+    color: white;
 }
 
 .contact {
@@ -98,6 +105,12 @@ section h2 {
 
 .contact span {
     margin-bottom: 8px;
+}
+
+.contact img {
+    border-radius: 50%;
+    width: 50%;
+    margin-bottom: 20px;
 }
 
 .profiles img{
