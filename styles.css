@@ -22,11 +22,12 @@ header {
     justify-content: space-around;
     border-bottom: 1px solid grey;
     position: fixed;
-    height: 67.6;
     top: 0;
     left: 0;
     right: 0;
     background-color: white;
+    padding: 10px 0 15px 0;
+    height: 60px;
 }
 
 main {
@@ -66,7 +67,7 @@ section h2 {
 }
 
 .pic {
-    margin-top: 67.6px;
+    margin-top: 60px;
     display: grid;
     align-items: center;
     background-image: url("/max_full.jpeg");
