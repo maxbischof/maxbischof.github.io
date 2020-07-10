@@ -152,10 +152,9 @@ section h2 {
 }
 
 .bio span {
-   font-size: 70%;
-   width: 34px;
-   margin: 0 10px 0 0;
-}
+    width: 34px;
+    margin: 0 40px 0 0;
+ }
 
 .bio h3, p {
     margin: 0 0 0px 0;
@@ -168,14 +167,10 @@ section h2 {
 }
 
 .bio-content {
-    padding: 0 0 20px 15px;
-
+    padding: 20px 20px 20px 20px;
+    background-color: white;
     border-left: 5px solid #457b9d;
-}
-
-.bio-content span {
-    top: -10px;
-    position: relative;
+    flex-grow: 1;
 }
 
 .bio-content p {
