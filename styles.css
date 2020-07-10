@@ -68,8 +68,8 @@ section h2 {
     margin-top: 67.6px;
     display: grid;
     align-items: center;
-    background-image: url("/max.png");
-    background-position: center;
+    background-image: url("/max_full.jpeg");
+    background-position: 20% 80%;
     background-size: cover;
     height: 100vh;
 }
@@ -173,4 +173,14 @@ footer span {
     height: 2px;
     background-color: white;
     margin: 0 0 30px 0;
+}
+
+@media (min-width: 500px) {
+    .contact img {
+        width: 249.5px;
+    }
+   }
+
+@media (min-width: 1024px) {
+    
 }
