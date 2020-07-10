@@ -58,6 +58,7 @@ section h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 50px 0 50px;
 }
 
 .interests {
@@ -111,6 +112,10 @@ section h2 {
     border-radius: 50%;
     width: 50%;
     margin-bottom: 20px;
+}
+
+.profiles {
+    background-color: white;
 }
 
 .profiles img{
