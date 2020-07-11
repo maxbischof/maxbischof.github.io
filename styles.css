@@ -86,6 +86,14 @@ section h2 {
     margin: 0 50px 0 50px;
 }
 
+.interests-pic {
+    display: none;
+}
+
+.skills-pic {
+    display: none;
+}
+
 .skills {
     background-color: white;
 }
@@ -238,14 +246,39 @@ footer span {
         display: grid;
     }
 
+    .interests, .skills {
+        padding: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .interests {
         grid-row: 2;
         grid-column: 1;
     }
 
-    .skills {
+    .interests-pic {
+        display: unset;
         grid-row: 2;
         grid-column: 2;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .interests-pic img, .skills-pic img {
+        width: 100%;
+    }
+
+    .skills {
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    .skills-pic {
+        display: unset;
+        grid-row: 3;
+        grid-column: 1;
     }
 
     .summary {
@@ -254,18 +287,18 @@ footer span {
     }
 
     .contact {
-        grid-row: 3;
+        grid-row: 4;
         grid-column: 1;
     }
 
     .profiles {
-        grid-row: 3;
+        grid-row: 4;
         grid-column: 2;
         background-color: white;
     }
 
     .biography {
-        grid-row: 4;
+        grid-row: 5;
         grid-column: 1 / 3;
     }
 
