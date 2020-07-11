@@ -273,6 +273,27 @@ footer span {
         width: 100%;
     }
 
+    .overlay-interests-pic {
+        grid-row: 2;
+        grid-column: 2;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgba(241, 250, 238, 0);
+    }
+
+    .overlay-interests-pic h2 {
+        color: rgba(241, 250, 238, 0);
+    }
+
+    .overlay-interests-pic:hover, .overlay-skills-pic:hover {
+        background-color: rgba(241, 250, 238, 0.4);
+        color: rgba(29, 53, 87, 1);
+        transition: all 1s;
+    }
+
     .skills {
         grid-row: 3;
         grid-column: 2;
@@ -284,6 +305,16 @@ footer span {
         grid-row: 3;
         grid-column: 1;
         border-bottom: 1px solid  #1d3557;
+    }
+
+    .overlay-skills-pic {
+        grid-row: 3;
+        grid-column: 1;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .summary {
