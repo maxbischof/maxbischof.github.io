@@ -243,8 +243,9 @@ footer span {
  }
 
 .bio h3, .bio p {
-    margin: 0 0 0px 0;
+    margin: 0 0 0 0;
     padding: 0 0 0 0;
+    text-align: left;
 }
 
 .bio-item {
