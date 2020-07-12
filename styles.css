@@ -51,6 +51,7 @@ section {
     align-items: center;
     background-color: #edf2f4;
     padding: 120px 0px 120px 0px;
+    min-height: 100vh;
 }
 
 section h2 {
@@ -271,7 +272,10 @@ footer span {
     .contact img {
         width: 249.5px;
     }
-   }
+
+    section {
+        min-height: unset;
+    }
 
 @media (min-width: 1024px) {
     /* General */
@@ -323,7 +327,7 @@ footer span {
     }
 
     .overlay-interests-pic:hover, .overlay-skills-pic:hover {
-        background-color: rgba(241, 250, 238, 0.7);
+        background-color: rgba(255, 255, 255, 0.7);
         color: rgba(29, 53, 87, 1);
         /* color: rgba(230, 57, 70, 1);
         color: rgb(69, 123, 157, 1); */
