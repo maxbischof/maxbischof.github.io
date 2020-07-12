@@ -90,12 +90,20 @@ section h2 {
     display: none;
 }
 
+.overlay-interests-pic {
+    display: none;
+}
+
 .skills-pic {
     display: none;
 }
 
 .skills {
     background-color: white;
+}
+
+.overlay-skills-pic {
+    display: none;
 }
 
 .pic {
