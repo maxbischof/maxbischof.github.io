@@ -90,7 +90,7 @@ footer span {
     margin-top: 60px;
     display: grid;
     align-items: center;
-    background-image: url("/max_full.jpeg");
+    background-image: url("img/max_full.jpeg");
     background-position: 20% 80%;
     background-size: cover;
     height: 100vh;
