@@ -22,6 +22,11 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0 50px 50px 50px;
+    text-align: center;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -237,7 +242,7 @@ footer span {
     margin: 0 40px 0 0;
  }
 
-.bio h3, p {
+.bio h3, .bio p {
     margin: 0 0 0px 0;
     padding: 0 0 0 0;
 }
@@ -370,6 +375,5 @@ footer span {
 
     .profiles img{
         width: 150px;
-        margin-top: 50px;
     }
 }
