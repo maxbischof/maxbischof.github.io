@@ -292,13 +292,15 @@ footer span {
         color: rgba(241, 250, 238, 0);
     }
 
-    .overlay-interests-pic h2 {
-        color: rgba(241, 250, 238, 0);
+    .overlay-interests-pic h3, .overlay-skills-pic h3{
+        margin: 0 50px 0 50px;
     }
 
     .overlay-interests-pic:hover, .overlay-skills-pic:hover {
-        background-color: rgba(241, 250, 238, 0.4);
+        background-color: rgba(241, 250, 238, 0.7);
         color: rgba(29, 53, 87, 1);
+        /* color: rgba(230, 57, 70, 1);
+        color: rgb(69, 123, 157, 1); */
         transition: all 1s;
     }
 
